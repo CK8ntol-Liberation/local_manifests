@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="ck8ntol"
+	    fetch="https://github.com/CK8ntol-Liberation"
+	    clone-depth="1" />
+
+ <!--Tree -->
+ <project path="device/tecno/CK8n" name="android_device_tecno_CK8n" remote="ck8ntol" revision="lineage-21" />
+
+ <!--Kernel -->
+ <project path="device/tecno/CK8n-kernel" name="android_device_tecno_CK8n-kernel" remote="ck8ntol" revision="fourteen" />
+ 
+ <!--stuff -->
+ <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-21" />
+ <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21"/>
+</manifest>
